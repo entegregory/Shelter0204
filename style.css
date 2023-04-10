@@ -1,7 +1,7 @@
 * {
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 0%;
+    right: 0%;
     font-style: normal;
     display: flex;
     align-items: center;
@@ -47,6 +47,7 @@
 
 .Start_screen {
     height: 908px;
+    top: 0px;
 }
 
 .Header {
@@ -59,6 +60,7 @@
 .header_logo {
     width: 184px;
     height: 60px;
+    top: 0px;
 }
 
 .header_logo_title {
@@ -98,7 +100,7 @@
 .header_navmenu_link_active,
 .header_navmenu_link4 {
     flex-direction: column;
-    padding: 0;
+    padding: 0px;
     gap: 10px;
     top: 16px;
 }
@@ -106,25 +108,21 @@
 .header_navmenu_link1 {
     width: 60px;
     height: 24px;
-}
-
-.header_navmenu_link1_contacts,
-.header_navmenu_link2_help_the_shelter,
-.header_navmenu_link_active_link_about_the_shelter,
-.header_navmenu_link4_our_pets {
-    font-family: 'Arial';
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 160%;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+    right: 0px;
 }
 
 .header_navmenu_link1_contacts {
     width: 60px;
     height: 24px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
     color: #CDCDCD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .header_navmenu_link2 {
@@ -136,9 +134,6 @@
 .header_navmenu_link2_help_the_shelter {
     width: 106px;
     height: 24px;
-    color: #CDCDCD;
-}
-
-.header_navmenu_link_active {
-    width: 114px;
-    height: 27px
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 
